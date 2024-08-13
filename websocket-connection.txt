@@ -1,0 +1,15 @@
+run server - python manage.py runserver (where tha manage.py available there)
+
+for websocket connection -
+
+
+ws://127.0.0.1:8000/ws/chat/?token = "TOKEN"
+ click on connect
+
+
+
+when send message use = {
+  "message": "Hello User 2, this is User 1",
+  "recipient_id": "2"
+}
+ this message send in postman websocket connection in message section
